@@ -11,9 +11,10 @@
 		2116A3682D5531E6006636DA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2116A3672D5531E6006636DA /* ContentView.swift */; };
 		2116A36A2D5531EE006636DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2116A3692D5531EE006636DA /* Assets.xcassets */; };
 		2116A36D2D5531EE006636DA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2116A36C2D5531EE006636DA /* Preview Assets.xcassets */; };
-		2116A3772D5531EF006636DA /* RockPapersScissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2116A3762D5531EF006636DA /* RockPapersScissorsTests.swift */; };
 		2116A3812D5531EF006636DA /* RockPapersScissorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2116A3802D5531EF006636DA /* RockPapersScissorsUITests.swift */; };
 		2116A3832D5531EF006636DA /* RockPapersScissorsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2116A3822D5531EF006636DA /* RockPapersScissorsUITestsLaunchTests.swift */; };
+		2116A3902D55324D006636DA /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2116A38F2D55324D006636DA /* Enums.swift */; };
+		2116A3942D553DBF006636DA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2116A3932D553DBF006636DA /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +41,11 @@
 		2116A3692D5531EE006636DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2116A36C2D5531EE006636DA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2116A3722D5531EF006636DA /* RockPapersScissorsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPapersScissorsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2116A3762D5531EF006636DA /* RockPapersScissorsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPapersScissorsTests.swift; sourceTree = "<group>"; };
 		2116A37C2D5531EF006636DA /* RockPapersScissorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPapersScissorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2116A3802D5531EF006636DA /* RockPapersScissorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPapersScissorsUITests.swift; sourceTree = "<group>"; };
 		2116A3822D5531EF006636DA /* RockPapersScissorsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPapersScissorsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2116A38F2D55324D006636DA /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		2116A3932D553DBF006636DA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +77,6 @@
 			isa = PBXGroup;
 			children = (
 				2116A3642D5531E6006636DA /* RockPapersScissors */,
-				2116A3752D5531EF006636DA /* RockPapersScissorsTests */,
 				2116A37F2D5531EF006636DA /* RockPapersScissorsUITests */,
 				2116A3632D5531E6006636DA /* Products */,
 			);
@@ -96,8 +97,10 @@
 			children = (
 				2116A3652D5531E6006636DA /* RockPapersScissorsApp.swift */,
 				2116A3672D5531E6006636DA /* ContentView.swift */,
+				2116A38F2D55324D006636DA /* Enums.swift */,
 				2116A3692D5531EE006636DA /* Assets.xcassets */,
 				2116A36B2D5531EE006636DA /* Preview Content */,
+				2116A3932D553DBF006636DA /* .gitignore */,
 			);
 			path = RockPapersScissors;
 			sourceTree = "<group>";
@@ -108,14 +111,6 @@
 				2116A36C2D5531EE006636DA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		2116A3752D5531EF006636DA /* RockPapersScissorsTests */ = {
-			isa = PBXGroup;
-			children = (
-				2116A3762D5531EF006636DA /* RockPapersScissorsTests.swift */,
-			);
-			path = RockPapersScissorsTests;
 			sourceTree = "<group>";
 		};
 		2116A37F2D5531EF006636DA /* RockPapersScissorsUITests */ = {
@@ -232,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2116A36D2D5531EE006636DA /* Preview Assets.xcassets in Resources */,
+				2116A3942D553DBF006636DA /* .gitignore in Resources */,
 				2116A36A2D5531EE006636DA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2116A3682D5531E6006636DA /* ContentView.swift in Sources */,
+				2116A3902D55324D006636DA /* Enums.swift in Sources */,
 				2116A3662D5531E6006636DA /* RockPapersScissorsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +263,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2116A3772D5531EF006636DA /* RockPapersScissorsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
